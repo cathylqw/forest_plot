@@ -1,3 +1,5 @@
+# Generating a Forest plot with SMD as effect size
+
 ## Step 1: Load Packages
 ```
 # Install if needed
