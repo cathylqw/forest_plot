@@ -8,7 +8,9 @@ library(meta)
 ```
 
 ## Step 2: Insert Dataset in CSV Format
-#### Make sure data already recorded in the form of n, SD and mean for both treatment and contro groups
+##### Make sure data already recorded in the form of n, SD and mean for both treatment and control groups. Example shown below:
+<img width="613" height="186" alt="Screenshot 2025-07-28 at 1 52 59 PM" src="https://github.com/user-attachments/assets/5597c402-8458-4303-a0f3-b89d9f878c3d" />
+
 ```
 # Load your data 
 df <- read.csv("your_dataset")
@@ -49,14 +51,19 @@ metacont(forest(res,
 )
 ```
 
-## Step 5: Results in Numbers 
+## Step 5: Results in Numbers
 ```
 # Print meta-analysis results
 summary(res)
 ```
+##### Example detailed results shown below:
+<img width="606" height="477" alt="Screenshot 2025-07-28 at 1 53 53 PM" src="https://github.com/user-attachments/assets/7f71ab9a-597c-4ebe-9f53-e8ec3258b0fd" />
+
 
 ## Step 6: Results in Plot 
 ```
 # Generate forest plot 
 forest(res)
 ```
+##### Example forest plot shown below:
+<img width="1001" height="297" alt="MWM_AD" src="https://github.com/user-attachments/assets/e1d69bea-c913-4448-82ec-4a6fb7468819" />
